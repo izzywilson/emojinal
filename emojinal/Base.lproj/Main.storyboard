@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="ipad11_0rounded" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,51 +15,66 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="emojinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKs-hb-0Pp">
-                                <rect key="frame" x="137" y="125" width="148" height="159"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="121"/>
-                                <state key="normal" title="😀"/>
-                                <connections>
-                                    <action selector="happyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sC1-nX-cur"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVb-ej-XRZ">
-                                <rect key="frame" x="120" y="333" width="174" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beyoncé gets emojinal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tu-rI-cme">
+                                <rect key="frame" x="1" y="32" width="832" height="29.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="29"/>
+                                <color key="textColor" red="0.67087275578817718" green="0.881383928919515" blue="0.90691790800000005" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVb-ej-XRZ">
+                                <rect key="frame" x="351" y="518" width="132" height="158"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="122"/>
                                 <state key="normal" title="😍"/>
                                 <connections>
                                     <action selector="loveBotton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jzo-rx-7UF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGd-sk-x58">
-                                <rect key="frame" x="137" y="556" width="140" height="152"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGd-sk-x58">
+                                <rect key="frame" x="355" y="758" width="124" height="150"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="115"/>
                                 <state key="normal" title="😰"/>
                                 <connections>
                                     <action selector="sadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Or-eM-2re"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beyoncé gets emojinal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tu-rI-cme">
-                                <rect key="frame" x="33" y="57" width="356" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.90691790800000005" green="0.42981681797330362" blue="0.70873239274594113" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKs-hb-0Pp">
+                                <rect key="frame" x="351.5" y="-12" width="131" height="551"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="121"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="happyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sC1-nX-cur"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.90242729348627382" blue="0.9040799977336158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yVb-ej-XRZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="266-fC-pto"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Tu-rI-cme" secondAttribute="trailing" id="3Je-CY-GtP"/>
+                            <constraint firstItem="7Tu-rI-cme" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="5zm-gn-RQr"/>
+                            <constraint firstItem="yVb-ej-XRZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BzG-KE-H5c"/>
+                            <constraint firstItem="SGd-sk-x58" firstAttribute="top" secondItem="yVb-ej-XRZ" secondAttribute="bottom" constant="82" id="Fgd-V4-IuK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Tu-rI-cme" secondAttribute="trailing" constant="1" id="I7N-Aq-qrZ"/>
+                            <constraint firstItem="7Tu-rI-cme" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="J4D-Mu-MdJ"/>
+                            <constraint firstItem="yVb-ej-XRZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="N6y-aI-5tb"/>
+                            <constraint firstItem="SGd-sk-x58" firstAttribute="top" secondItem="yVb-ej-XRZ" secondAttribute="bottom" constant="82" id="S5W-QH-wyu"/>
+                            <constraint firstItem="nKs-hb-0Pp" firstAttribute="top" secondItem="7Tu-rI-cme" secondAttribute="bottom" constant="-73.666666666666671" id="UjC-Ss-Nb5"/>
+                            <constraint firstItem="yVb-ej-XRZ" firstAttribute="top" secondItem="nKs-hb-0Pp" secondAttribute="bottom" constant="-21" id="aro-yy-pHA"/>
+                            <constraint firstItem="yVb-ej-XRZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c8d-1a-eLm"/>
+                            <constraint firstItem="SGd-sk-x58" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fY5-lN-LPS"/>
+                            <constraint firstItem="7Tu-rI-cme" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="gfq-jG-dhq"/>
+                            <constraint firstItem="SGd-sk-x58" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v3b-xs-rXn"/>
+                            <constraint firstItem="nKs-hb-0Pp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wA0-27-9fo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57.971014492753625" y="117.85714285714285"/>
+            <point key="canvasLocation" x="-57.971014492753625" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
